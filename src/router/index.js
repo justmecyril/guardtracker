@@ -123,7 +123,7 @@ const router = createRouter({
 
 // Change document titles
 router.beforeEach((to, from, next) => {
-  document.title = `${to.meta.title} | Last Mile`;
+  document.title = `${to.meta.title} | Guard Tracker`;
   next();
 });
 

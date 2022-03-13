@@ -3,7 +3,7 @@
     <!-- Navbar -->
     <nav class="flex flex-col items-center gap-4 px-4 py-5 sm:flex-row">
       <div class="flex items-center gap-x-4">
-        <h1 class="text-lg">TrAcK-gUaRd</h1>
+        <h1 class="text-lg">Guard Tracker</h1>
       </div>
       <ul class="flex justify-end flex-1 gap-x-10">
         <div class="flex" v-if="user">
