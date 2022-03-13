@@ -82,6 +82,7 @@ export default {
     // logout function
     const handleLogout = () => {
       store.dispatch("logout");
+      toggle_Nav()
       router.push({ name: "Login" });
     };
 
