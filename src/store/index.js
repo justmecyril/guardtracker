@@ -70,6 +70,7 @@ export default createStore({
 
     SET_USER(state, payload) {
       state.user = payload;
+   
     },
     SET_ERROR(state, payload) {
       state.error = payload;
