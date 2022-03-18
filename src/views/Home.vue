@@ -9,7 +9,7 @@
           :to="{ name: 'GuardDetails', params: { guardId: guard.id } }"
           v-for="guard in guards"
           :key="guard.id"
-          class="flex items-center w-screen p-6 space-x-6 transition duration-500 transform shadow-lg md:mx-auto md:container text-light-green bg-light-grey rounded-xl hover:shadow-xl hover:scale-105"
+          class="flex items-center w-screen p-6 space-x-6 text-black transition duration-500 transform shadow-lg md:mx-auto md:container bg-light-grey rounded-xl hover:shadow-xl hover:scale-105"
         >
           <div class="flex p-4 space-x-4 rounded-lg w-72">
             <label for="">{{ guard.fullName }}</label>

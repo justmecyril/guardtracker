@@ -11,7 +11,7 @@
     <form @submit.prevent="updateDesignation" class="max-w-2xl mx-auto">
       <div class="my-24">
         <div
-          class="max-w-2xl p-4 border rounded-lg shadow-md text-light-green bg-light-grey sm:p-8"
+          class="max-w-2xl p-4 text-black border rounded-lg shadow-md bg-light-grey sm:p-8"
         >
           <div class="flex items-center justify-between mb-4">
             <h3 class="text-xl font-bold leading-none">Update Designation</h3>

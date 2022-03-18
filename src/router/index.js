@@ -11,6 +11,8 @@ import ZoneDetails from "@/views/ZoneDetails";
 import LocationDetails from "@/views/LocationDetails";
 import DesignationDetails from "@/views/DesignationDetails";
 import GuardDetails from "@/views/GuardDetails";
+import Test from "@/views/Test";
+
 
 
 const routes = [
@@ -113,6 +115,17 @@ const routes = [
       auth: true
     },
   },
+
+  {
+    path: "/test",
+    name: "Test",
+    component: Test,
+    meta: {
+      title: "Test",
+      auth: true
+    },
+  },
+ 
  
 ];
 

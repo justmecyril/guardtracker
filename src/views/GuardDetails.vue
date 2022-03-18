@@ -18,7 +18,7 @@
         :key="guard.id"
       >
         <div
-          class="flex flex-col py-4 pl-8 border-2 bg-light-grey text-light-green"
+          class="flex flex-col py-4 pl-8 border-2 text-light-green bg-light-grey"
         >
           <h1 class="pb-2 text-lg font-bold underline">Personal Details</h1>
           <div class="flex flex-col pt-4">

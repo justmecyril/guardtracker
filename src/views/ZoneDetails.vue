@@ -12,7 +12,7 @@
     <!-- Update Zone -->
     <form @submit.prevent="updateZone" class="max-w-2xl mx-auto my-52">
       <div
-        class="max-w-2xl p-4 border rounded-lg shadow-md bg-light-grey text-light-green"
+        class="max-w-2xl p-4 text-black border rounded-lg shadow-md bg-light-grey"
       >
         <div class="flex items-center justify-between mb-4">
           <h3 class="text-xl font-bold leading-none">Update Zone</h3>
