@@ -13,7 +13,7 @@
           <button v-if="user" class="cursor-pointer">Menü</button>
           <nav
             tabindex="0"
-            class="absolute left-0 invisible w-48 text-white transition-all border border-2 border-gray-800 rounded bg-light-green top-full group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1"
+            class="absolute left-0 invisible w-40 text-white transition-all border border-2 border-gray-800 rounded bg-light-green top-full group-focus-within:visible group-focus-within:opacity-100 group-focus-within:translate-y-1"
           >
             <ul class="py-1">
               <li>
